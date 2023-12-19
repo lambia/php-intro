@@ -82,6 +82,7 @@ $persone = [
         </thead>
         <tbody>
             <?php
+            /*
             foreach ($persone as $persona) {
                 echo "<tr>";
                 echo "<td>" . $persona['name'] . "</td>";
@@ -91,8 +92,8 @@ $persone = [
                 echo "<td>" . $persona['password'] . "</td>";
                 echo "</tr>";
             }
-            ?>
-            <?php
+            */
+
             foreach ($persone as $persona) {
                 echo "<tr>";
                 foreach ($persona as $key => $value) {
